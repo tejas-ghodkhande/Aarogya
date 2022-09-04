@@ -122,13 +122,15 @@ Every person needs a diet that suits their body and lifestyle, and this personal
 
 **Group Page**
 
-![page9](https://user-images.githubusercontent.com/107451256/188327856-3882b0c0-0af4-44e4-9e89-99b99cb627bf.PNG)
+![page9](https://user-images.githubusercontent.com/107451256/188329227-99b9450e-4f09-446d-b909-2fdccd361521.PNG)
 
 **Profile Page**
 
 ![page10](https://user-images.githubusercontent.com/107451256/188327974-6afb5b7b-8add-43db-a102-b14d2c57dc97.PNG)
 
 ## 🎬 Project Explanatory  Video
+
+https://user-images.githubusercontent.com/107451256/188329577-4a7ed3e5-2725-47c7-9251-8bcfea121fb2.mp4
 
 
 
