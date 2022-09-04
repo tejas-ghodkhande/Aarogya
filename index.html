@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Aarogya</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <script src="https://kit.fontawesome.com/56c759bb6e.js" crossorigin="anonymous"></script>
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: CareBuddy - v4.8.1
+  * Template URL: https://bootstrapmade.com/CareBuddy-free-medical-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo me-auto"><a href="index.html">Aarogya</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <div class="search">
+                <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="search">
+
+                </form>
+            </div>
+
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+
+                <ul>
+                    <li>
+                        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png" alt="" srcset="">
+                    </li>
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Care</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Trip</a></li>
+                    <li><a class="nav-link scrollto" href="#departments">Calculator</a></li>
+                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="./Group.html">Group</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <a href="./profile.html" class="appointment-btn scrollto">
+                <img src="data:image/jpeg;base64,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"
+                    alt="" srcset=""> Sunita Sharma
+            </a>
+        </div>
+    </header>
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="col-lg-4 d-flex align-items-stretch">
+                <div class="content">
+                    <h5>Latest News</h5>
+                    <br>
+                    <div class="cards">
+                        <img src="https://www.thestatesman.com/wp-content/uploads/2020/05/coroan.jpg" alt="" srcset="">
+                        <div class="info">
+                            <h6>September 3, 2022 06:50 AM IST </h6>
+                            <h6>Nagpur Police to visit homes of senior citizens every evening under new initiative</h6>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <img src="https://www.thestatesman.com/wp-content/uploads/2020/05/coroan.jpg" alt="" srcset="">
+                        <div class="info">
+                            <h6>September 4, 2022 06:30 AM IST </h5>
+                                <h6>CPI MP Binoy Viswam urges rail minister to restore senior citizen concession in trains</h6>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <img src="https://www.thestatesman.com/wp-content/uploads/2020/05/coroan.jpg" alt="" srcset="">
+                        <div class="info">
+                            <h6>September 4, 2022 07.50 AM IST </h6>
+                            <h6>Helpline for elderly receives over 79,000 calls seeking pension, COVID support</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+        <section id="why-us" class="why-us">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <img src="https://content.fortune.com/wp-content/uploads/2021/07/GettyImages-1206639436.jpg" alt="" srcset="">
+                            <div class="info">
+                                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+
+                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <img src="https://content.fortune.com/wp-content/uploads/2021/07/GettyImages-1206639436.jpg" alt="" srcset="">
+                            <div class="info">
+                                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+
+                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-flex align-items-stretch">
+                        <div class="content">
+                            <img src="https://content.fortune.com/wp-content/uploads/2021/07/GettyImages-1206639436.jpg" alt="" srcset="">
+                            <div class="info">
+                                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+
+                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Why Us Section -->
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+                <!-- <div class="row"> -->
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <h3>video with a physical therapist detailing the exercises needed to rehabilitate an ankle sprain.</h3>
+                    <a href="https://www.youtube.com/watch?v=3JJayVC0-20" class="glightbox play-btn mb-4"></a>
+                </div>
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <h3>Heart Failure</h3>
+                    <a href="https://www.youtube.com/watch?v=GNXSL-EkfM4 " class="glightbox play-btn mb-4"></a>
+                </div>
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <h3>Mental Health</h3>
+                    <a href="https://www.youtube.com/watch?v=6gX9nbHuTBY&list=PL_R-PIHwXm7exTjymIAlM9uKvZyyRMAHx" class="glightbox play-btn mb-4"></a>
+                </div>
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <h3>emergency care instruction</h3>
+                    <a href="https://www.youtube.com/watch?v=XjMvBW9KDLA" class="glightbox play-btn mb-4"></a>
+                </div>
+                <!-- </div> -->
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-box">
+                            <i class="fas fa-user-md"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Doctors</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                        <div class="count-box">
+                            <i class="far fa-hospital"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Departments</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="fas fa-flask"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Research Labs</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                        <div class="count-box">
+                            <i class="fas fa-award"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Awards</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Counts Section -->
+
+        <div class="Groups">
+            <h1>PLAN A TRIP</h1>
+            <div class="content">
+
+                <div class="search_item">
+                    <div class="search">
+                        <input type="text" placeholder="Search friends...">
+                        <button type="submit">Search</button>
+                        <br>
+                        <div class="search_content">
+                            <div class="box">
+                                <div class="avatar">
+                                    <img src="https://wealthripple.com/wp-content/uploads/2018/09/portrait-square-03.jpg" alt="" srcset="">
+                                    <div class="info">
+                                        <h6>Sukansh Pendor</h6>
+                                        <p>Friend</p>
+                                    </div>
+                                </div>
+                                <div class="chat_add-to-group">
+                                    <a href=""><i class="fa fa-comments" aria-hidden="true"></i> &nbsp; chat</a>
+                                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add to Group</a>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="avatar">
+                                    <img src="https://wealthripple.com/wp-content/uploads/2018/09/portrait-square-03.jpg" alt="" srcset="">
+                                    <div class="info">
+                                        <h6>Tejas Ghodkhande</h6>
+
+                                    </div>
+                                </div>
+                                <div class="chat_add-to-group">
+                                    <a href=""><i class="fa fa-comments" aria-hidden="true"></i> &nbsp; chat</a>
+                                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add to Group</a>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="avatar">
+                                    <img src="https://wealthripple.com/wp-content/uploads/2018/09/portrait-square-03.jpg" alt="" srcset="">
+                                    <div class="info">
+                                        <h6>Chaitanya Patil</h6>
+                                        <p>Friend</p>
+                                    </div>
+                                </div>
+                                <div class="chat_add-to-group">
+                                    <a href=""><i class="fa fa-comments" aria-hidden="true"></i> &nbsp; chat</a>
+                                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add to Group</a>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="avatar">
+                                    <img src="https://wealthripple.com/wp-content/uploads/2018/09/portrait-square-03.jpg" alt="" srcset="">
+                                    <div class="info">
+                                        <h6>Pavan torkad</h6>
+                                        <p>Friend</p>
+                                    </div>
+                                </div>
+                                <div class="chat_add-to-group">
+                                    <a href=""><i class="fa fa-comments" aria-hidden="true"></i> &nbsp; chat</a>
+                                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add to Group</a>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="avatar">
+                                    <img src="https://wealthripple.com/wp-content/uploads/2018/09/portrait-square-03.jpg" alt="" srcset="">
+                                    <div class="info">
+                                        <h6>Ravindra Chavhan</h6>
+                                        <p>Friend</p>
+                                    </div>
+                                </div>
+                                <div class="chat_add-to-group">
+                                    <a href=""><i class="fa fa-comments" aria-hidden="true"></i> &nbsp; chat</a>
+                                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> &nbsp; Add to Group</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image">
+                    <img src="./assets/img/Trip.png" alt="" srcset="">
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- ======= Appointment Section ======= -->
+        <section id="appointment" class="appointment section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Register with our team</h2>
+                    <p> Just join our team and forget about your health problems </p>
+                </div>
+
+                <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 form-group mt-3">
+                            <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="department" id="department" class="form-select">
+                <option value="">Select Department</option>
+                <option value="Department 1">Department 1</option>
+                <option value="Department 2">Department 2</option>
+                <option value="Department 3">Department 3</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="doctor" id="doctor" class="form-select">
+                <option value="">Select Doctor</option>
+                <option value="Doctor 1">Doctor 1</option>
+                <option value="Doctor 2">Doctor 2</option>
+                <option value="Doctor 3">Doctor 3</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Make an Appointment</button></div>
+                </form>
+
+            </div>
+        </section>
+        <!-- End Appointment Section -->
+
+
+        <!-- ======= Doctors Section ======= -->
+        <section id="doctors" class="doctors">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Nearby Doctors</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                        quidem hic quas.</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Raj Clinic</h4>
+                                <span>Dr. Sukansh pendor</span>
+                                <p>Latare lay out, pandharkawada</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Sarah Jhonson</h4>
+                                <span>Anesthesiologist</span>
+                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>William Anderson</h4>
+                                <span>Cardiology</span>
+                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start">
+                            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Neurosurgeon</span>
+                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                                <div class="social">
+                                    <a href=""><i class="ri-twitter-fill"></i></a>
+                                    <a href=""><i class="ri-facebook-fill"></i></a>
+                                    <a href=""><i class="ri-instagram-fill"></i></a>
+                                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Doctors Section -->
+
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <!-- <section id="faq" class="faq section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                        quidem hic quas.</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
+                                    cursus turpis massa tincidunt dui.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                    molestie at elementum eu facilisis sed odio morbi quis
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
+                dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section> -->
+        <!-- End Frequently Asked Questions Section -->
+
+        ======= Testimonials Section =======
+        <!-- <section id="testimonials" class="testimonials">
+            <div class="container">
+
+                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-wrap">
+                                <div class="testimonial-item">
+                                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                    <h3>Saul Goodman</h3>
+                                    <h4>Ceo &amp; Founder</h4>
+                                    <p>
+                                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen
+                                        aliquam, risus at semper.
+                                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+            <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        anim culpa.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+            <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+            <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore
+                        illum veniam.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div> -->
+        <!-- End testimonial item -->
+
+        <!-- <div class="swiper-slide">
+            <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <p>
+                        <i class="bx bxs-quote-alt-left quote-icon-left"></i> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                        fore nisi cillum quid.
+                        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+        </div>
+
+        </div>
+        </section> -->
+        <!-- End Testimonials Section -->
+
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+            </div>
+
+            <div>
+                <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="container">
+                <div class="row mt-5">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Wockhardt super speciality hospital, Nagpur</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>tejas.ghodkhande2707@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+91 7796057984</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Aarogya</h3>
+                        <p>
+                            Wockhardt super speciality hospital <br> Nagpur, Maharashtra<br> India <br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Care</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Trip</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Group</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Calculator</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>CareBuddy</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="#">Tejas Ghodkhande</a>
+                </div>
+            </div>
+            <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
