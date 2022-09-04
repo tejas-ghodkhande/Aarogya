@@ -106,7 +106,7 @@ Every person needs a diet that suits their body and lifestyle, and this personal
  
 ![page1](https://user-images.githubusercontent.com/107451256/188327590-c50612f3-807d-472d-aff7-5ae1b958309e.PNG)
 
-![page2](https://user-images.githubusercontent.com/107451256/188327752-86248d9b-6e6e-47b3-bdab-dcd45642bf79.PNG)
+![page2](https://user-images.githubusercontent.com/107451256/188328888-44b4edec-8d2d-4c90-aa8e-e3cbd713af5d.PNG)
 
 ![page3](https://user-images.githubusercontent.com/107451256/188327759-2279d960-8e46-4373-be3a-56786fb48026.PNG)
 
